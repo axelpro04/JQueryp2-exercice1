@@ -20,11 +20,12 @@ $(document).ready(function () {
     // solution n2
 
     $("img").mouseover(function () {
-
-        $(this).css("width", "500px");
+    //  $(this).width(500);
+        $(this).width("500px");
+    //  $(this).css("width", "500px");
 
     });
-    $("img").mouseout(function () {
+        $("img").mouseout(function () {
 
         $(this).css("width", "200px");
     }); 
